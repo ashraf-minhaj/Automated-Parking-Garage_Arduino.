@@ -1,5 +1,5 @@
 # Automated-Parking-Garage_Arduino.
-This garage can automatically tell you which slots are available and which are not. And automatically closes or opens its gate. for more www.youtube.com/c/fusebatti  www.instructables.com/ashrafminhaj
+This garage can automatically tell you which slots are available and which are not. And automatically closes or opens its gate. for more https://youtu.be/PvrpTBga60s    www.instructables.com/ashrafminhaj
 
 	/*Automated Parking Garage by Ashraf Minhaj. www.youtube.com/c/fusebatti
     * for any query please mail me at ashraf_minhaj@yahoo.com*/
