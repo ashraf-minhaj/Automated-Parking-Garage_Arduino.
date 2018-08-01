@@ -82,7 +82,7 @@ This garage can automatically tell you which slots are available and which are n
             
          }
             
-  	if( digitalRead(gateSensor))  //no input detedted
+  	if( digitalRead(gateSensor))  //no input detected
         { Serial.println("Welcome");  
           gate.write(5);       //gate close
          digitalWrite(slot1_l,LOW);
