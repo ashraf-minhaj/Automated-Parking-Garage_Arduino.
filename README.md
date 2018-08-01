@@ -82,13 +82,13 @@ This garage can automatically tell you which slots are available and which are n
             
          }
             
-  	if( digitalRead(gateSensor))
-        { Serial.println("Welcome");  // slo2 available
+  	if( digitalRead(gateSensor))  //no input detedted
+        { Serial.println("Welcome");  
           gate.write(5);       //gate close
          digitalWrite(slot1_l,LOW);
          digitalWrite(slot2_l,LOW);
          digitalWrite(gate_red,LOW);
-         digitalWrite(gate_grn,HIGH);
+         digitalWrite(gate_grn,HIGH);  //yellow/green light will blink from here
          delay(100);
          digitalWrite(gate_grn,LOW);
          delay(100);
